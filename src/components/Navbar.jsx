@@ -31,7 +31,7 @@ const Navbar = () => {
                     </div>
                     <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                         <Link to='home' spy={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Home</Link>
-                        <Link to='about' spy={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>About</Link>
+                        <Link to='about' spy={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Why Us</Link>
                         <Link to='menu' spy={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Menu</Link>
                         <div className='relative group'>
                             <div className='flex items-center gap-1'>

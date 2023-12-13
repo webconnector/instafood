@@ -7,6 +7,7 @@ import menu3 from '../assets/images/chicken-tandoori.jpg'
 const Menu = () => {
   return (
     <div className='min-h-screen flex flex-col justify-center items-center lg:px-32 px-5'>
+      
       <h1 className='text-center font-semibold text-4xl mb-8 md:text-start inline-block overflow-hidden hover:bg-brightColor hover:text-white transition duration-300 '>Premium Menus</h1>
       <div className='flex flex-wrap gap-8 justify-center'>
         <DishesCard img={menu3} title="Chicken Tandoori" price="N3,000" />
